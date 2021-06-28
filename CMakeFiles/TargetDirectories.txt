@@ -1,0 +1,3 @@
+/home/anmolnagarro/Desktop/practice/testingJenkins/CMakeFiles/rebuild_cache.dir
+/home/anmolnagarro/Desktop/practice/testingJenkins/CMakeFiles/edit_cache.dir
+/home/anmolnagarro/Desktop/practice/testingJenkins/CMakeFiles/hello.dir
