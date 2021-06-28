@@ -5,12 +5,13 @@ pipeline {
             steps {
                 echo "Building...."
                 sh "cmake ."
+                sh "make hello"
             }
         }
         stage('Test') {
             steps {
                 echo "Running ...."
-                sh "make hello"
+                echo "./hello"
             }
             
         }
