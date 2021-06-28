@@ -1,4 +1,4 @@
-pipleline {
+Pipleline {
     agent any
     stages {
         stage('Build') {
