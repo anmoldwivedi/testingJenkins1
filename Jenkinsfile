@@ -3,13 +3,16 @@ pipeline {
     stages {
         stage('Build') {
             step {
-                sh 'echo "Building...."'
-                sh 'cmake .'
+                echo "Building...."
+                sh "cmake ."
             }
         }
         stage('Test') {
-            sh 'echo "Running ...."'
-            sh 'make hello'
+            step {
+                echo "Running ...."
+                sh "make hello"
+            }
+            
         }
     }
 }
