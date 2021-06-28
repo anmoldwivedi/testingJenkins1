@@ -2,13 +2,13 @@ pipeline {
     agent any
     stages {
         stage('Build') {
-            step {
+            steps {
                 echo "Building...."
                 sh "cmake ."
             }
         }
         stage('Test') {
-            step {
+            steps {
                 echo "Running ...."
                 sh "make hello"
             }
